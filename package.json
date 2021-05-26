@@ -1,0 +1,24 @@
+{
+  "name": "cars-component",
+  "version": "1.0.0",
+  "description": "Challenge from frontend mentor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macrespo42/3column-preview-card-component.git"
+  },
+  "keywords": [
+    "card",
+    "component",
+    "scss"
+  ],
+  "author": "macrespo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/macrespo42/3column-preview-card-component/issues"
+  },
+  "homepage": "https://github.com/macrespo42/3column-preview-card-component#readme"
+}
