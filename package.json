@@ -4,7 +4,9 @@
   "description": "Challenge from frontend mentor",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css --style expanded",
+    "sass-prod": "sass ./sass/main.scss:./public/css/style.min.css --style compressed",
+    "clean": "rm ./public/css/style.css ./public/css/style.css.map ./public/css/style.min.css ./public/css/style.min.css.map"
   },
   "repository": {
     "type": "git",
