@@ -1,0 +1,18 @@
+@import "../utils/variables";
+
+* {
+	box-sizing: border-box;
+	font-size: 15px;
+	background-color: map-get($text-colours, other);
+}
+
+.container {
+	font-family: 'Lexend Deca', sans-serif;
+	color: map-get($text-colours, paragraphs);
+	width: 90%;
+	margin: 20% auto;
+}
+
+h2 {
+	font-family: 'Big Shoulders Display', cursive;
+}
