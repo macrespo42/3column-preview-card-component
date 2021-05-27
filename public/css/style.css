@@ -15,4 +15,14 @@ h2 {
   font-family: "Big Shoulders Display", cursive;
 }
 
+.card__primary-button {
+  border-radius: 42px;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+.card__primary-button:hover {
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=style.css.map */

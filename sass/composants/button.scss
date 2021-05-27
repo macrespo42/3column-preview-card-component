@@ -1,0 +1,11 @@
+@import "../utils/variables";
+
+.card__primary-button {
+	border-radius: 42px;
+	padding: .7rem 1.5rem;
+	border: none;
+	background-color: map-get($text-colours, paragraphs);
+	&:hover {
+		cursor: pointer;
+	}
+}
