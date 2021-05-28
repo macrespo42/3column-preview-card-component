@@ -7,7 +7,7 @@
     "sass": "sass --watch ./sass/main.scss:./public/css/style.css --style expanded",
     "sass-prod": "sass ./sass/main.scss:./public/css/style.min.css --style compressed",
     "clean": "rm ./public/css/style.css ./public/css/style.css.map ./public/css/style.min.css ./public/css/style.min.css.map",
-    "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefixed/"
+    "prefix": "postcss ./public/css/style.min.css --use autoprefixer -d ./public/css/prefixed/"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
   ],
   "author": "macrespo",
   "license": "ISC",
-  "browserlist": "last 4 versions",
+  "browserslist": "last 4 versions",
   "bugs": {
     "url": "https://github.com/macrespo42/3column-preview-card-component/issues"
   },
