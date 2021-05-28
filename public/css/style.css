@@ -14,16 +14,68 @@
 h2 {
   font-family: "Big Shoulders Display", cursive;
   font-size: 2rem;
+  color: #f2f2f2;
 }
 
 .card__primary-button {
   border-radius: 42px;
   padding: 0.7rem 1.5rem;
-  border: none;
-  background-color: rgba(255, 255, 255, 0.75);
+  border: 2px solid transparent;
+  background-color: #f2f2f2;
 }
 .card__primary-button:hover {
   cursor: pointer;
+}
+
+.card {
+  padding: 3rem 2rem;
+}
+
+.sedans {
+  border-radius: 12px 12px 0 0;
+  background-color: #e38826;
+}
+.sedans h2, .sedans p, .sedans img {
+  background-color: #e38826;
+}
+.sedans button {
+  color: #e38826;
+}
+.sedans button:hover {
+  background-color: #e38826;
+  border: 2px solid #f2f2f2;
+  color: #f2f2f2;
+}
+
+.suv {
+  background-color: #006970;
+}
+.suv h2, .suv p, .suv img {
+  background-color: #006970;
+}
+.suv button {
+  color: #006970;
+}
+.suv button:hover {
+  background-color: #006970;
+  border: 2px solid #f2f2f2;
+  color: #f2f2f2;
+}
+
+.luxury {
+  border-radius: 0 0 12px 12px;
+  background-color: #004241;
+}
+.luxury h2, .luxury p, .luxury img {
+  background-color: #004241;
+}
+.luxury button {
+  color: #004241;
+}
+.luxury button:hover {
+  background-color: #004241;
+  border: 2px solid #f2f2f2;
+  color: #f2f2f2;
 }
 
 /*# sourceMappingURL=style.css.map */

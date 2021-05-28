@@ -1,0 +1,53 @@
+@import "../utils/variables";
+
+.card {
+	padding: 3rem 2rem;
+}
+
+.sedans {
+	border-radius: 12px 12px 0 0;
+	background-color: $primary-sedans;
+	h2, p, img {
+		background-color: $primary-sedans;
+	}
+	button {
+		color: $primary-sedans;
+		&:hover {
+			background-color: $primary-sedans;
+			border: 2px solid map-get($text-colours, other);
+			color: map-get($text-colours, other);
+		}
+	}
+}
+
+.suv {
+	background-color: $primary-suv;
+	h2, p, img {
+		background-color: $primary-suv;
+	}
+	button {
+		color: $primary-suv;
+	&:hover {
+		background-color: $primary-suv;
+		border: 2px solid map-get($text-colours, other);
+		color: map-get($text-colours, other);
+		}
+	}
+}
+
+.luxury {
+	border-radius: 0 0 12px 12px;
+	background-color: $primary-luxury;
+	h2, p, img {
+		background-color: $primary-luxury;
+	}
+	button {
+		color: $primary-luxury;
+		&:hover
+		{
+			background-color: $primary-luxury;
+			border: 2px solid map-get($text-colours, other);
+			color: map-get($text-colours, other);
+		}
+	}
+}
