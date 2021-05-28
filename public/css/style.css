@@ -9,6 +9,13 @@
   color: rgba(255, 255, 255, 0.75);
   width: 90%;
   margin: 20% auto;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 1023px) {
+  .container {
+    flex-direction: row;
+  }
 }
 
 h2 {
@@ -38,6 +45,11 @@ h2 {
 .sedans {
   border-radius: 12px 12px 0 0;
   background-color: #e38826;
+}
+@media (min-width: 1023px) {
+  .sedans {
+    border-radius: 12px 0 0 12px;
+  }
 }
 .sedans h2, .sedans p, .sedans img {
   background-color: #e38826;
@@ -69,6 +81,11 @@ h2 {
 .luxury {
   border-radius: 0 0 12px 12px;
   background-color: #004241;
+}
+@media (min-width: 1023px) {
+  .luxury {
+    border-radius: 0 12px 12px 0;
+  }
 }
 .luxury h2, .luxury p, .luxury img {
   background-color: #004241;

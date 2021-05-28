@@ -4,13 +4,15 @@
 	padding: 2.5rem 2.5rem;
 	p {
 		line-height: 1.5rem;
-		// border: 2px solid red;
 		margin-bottom: 1.8rem;
 	}
 }
 
 .sedans {
 	border-radius: 12px 12px 0 0;
+	@media (min-width: 1023px) {
+		border-radius: 12px 0 0 12px;
+	}
 	background-color: $primary-sedans;
 	h2, p, img {
 		background-color: $primary-sedans;
@@ -42,6 +44,9 @@
 
 .luxury {
 	border-radius: 0 0 12px 12px;
+	@media (min-width: 1023px) {
+		border-radius: 0 12px 12px 0;
+	}
 	background-color: $primary-luxury;
 	h2, p, img {
 		background-color: $primary-luxury;
